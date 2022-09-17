@@ -1,0 +1,31 @@
+{
+    "name": "chtulhudark",
+    "title": "Chtulhu Dark",
+    "description": "",
+    "version": "0.0.1",
+    "templateVersion": 1,
+    "authors": [
+        {
+          "name": "Dummy"
+        }
+    ],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "scripts": [],
+    "esmodules": [
+        "cthulhudark.js"
+      ],
+    "styles": [
+      "styles/cthulhudark.css"
+    ],
+    "packs": [],
+    "languages": [],
+    "socket": false,
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "url": "",
+    "manifest": "",
+    "download": ""
+  }

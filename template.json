@@ -1,0 +1,10 @@
+{
+    "Actor": {
+        "types": ["Investigator"],
+            "Investigator":{
+                "job": "",
+                "insanity": 1,
+                "description": ""
+            }
+    }
+}

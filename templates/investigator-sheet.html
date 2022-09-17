@@ -1,0 +1,17 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <section class="pj_data">
+        <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
+        <img src="{{actor.img}}" title="{{actor.name}}" data-edit="img"/>
+        <h2><label for="system.job">OCUPACIÓN</label></h2>
+        <input name="system.job" type="text" value="{{actor.system.job}}" placeholder="Ocupación"/>
+        <h2><label for="system.description">DESCRIPCIÓN</label></h2>
+        <input name="system.description" type="text" value="{{actor.system.description}}" placeholder="Descripción"/>
+        <h2><label for="system.insanity" class="insanity_roll" data-insanity="{{actor.system.insanity}}">LOCURA</label></h2>
+        <input name="system.insanity" type="number" value="{{actor.system.insanity}}"/>
+    </section>
+    <section class="dice">
+        <h1><label class="nDice_roll" data-ndice="1">1</label></h1>
+        <h1><label class="nDice_roll" data-ndice="2">2</label></h1>
+        <h1><label class="nDice_roll" data-ndice="3">3</label></h1>
+    </section>
+</form>
